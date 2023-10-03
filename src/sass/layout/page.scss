@@ -1,0 +1,12 @@
+.page {
+    padding: 0 1rem;
+
+    &[data-align] {
+        margin: 0 auto;
+        max-width: var(--target-width);
+    }
+
+    &[data-align="text"] {
+        --target-width: var(--width-text);
+    }
+}
